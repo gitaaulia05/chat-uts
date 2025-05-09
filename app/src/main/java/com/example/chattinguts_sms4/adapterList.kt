@@ -35,7 +35,6 @@ class adapterList(private val context: Context, private val data: List<messageSy
         val timeText = view.findViewById<TextView>(R.id.timeTextView)
         val imageView = view.findViewById<CircleImageView>(R.id.profileImage)
 
-
         // isi nilai elemen dengan data dari dataMessage.
         fromText.text = item.from
         messageText.text = item.message
