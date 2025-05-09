@@ -16,18 +16,15 @@ class SplashActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_splash)
 
-        // HANDLER UNTUNK MENJEDA RUNNING FUNGSI goToMainActivity Selama 3 detik
+        // HANDLER UNTUNK MENJEDA RUNNING FUNGSI goToLoginActivity Selama 3 detik
         Handler(Looper.getMainLooper()).postDelayed({
             goToLoginActivity()
-
         }, 3000L)
 
     }
-
-
     // FUNGSI INI UNTUK MENAMPILKAN HALAMAN UTAMA
     private fun goToLoginActivity() {
-    Intent(this, RegisterActivity::class.java).also{
+    Intent(this, LoginActivity::class.java).also{
         startActivity(it)
         finish();
     }

@@ -2,13 +2,5 @@
     <!-- Base application theme. -->
     <style name="Apptheme" parent="Theme.Material3.Light.NoActionBar">
       <item name="android:windowBackground">@color/white</item>
-
     </style>
-
-<!--    <style name="Theme.ChattingUts_sms4" parent="Base.Theme.ChattingUts_sms4" />-->
-<!--    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">-->
-<!--        <item name="windowSplashScreenBackground">@color/white</item>-->
-<!--        <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo1</item>-->
-<!--        <item name="postSplashScreenTheme">@style/Base.Theme.ChattingUts_sms4</item>-->
-<!--    </style>-->
 </resources>
