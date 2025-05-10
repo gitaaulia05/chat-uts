@@ -20,7 +20,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         // ambil id dari komponen tampilan dari layout activity_login
-        val usernameInput = findViewById<EditText>(R.id.username)
+        val usernameInput = findViewById<TextInputEditText>(R.id.username)
         val passwordInput = findViewById<TextInputEditText>(R.id.password)
         val loginButton = findViewById<Button>(R.id.loginButton)
         val registerButton = findViewById<Button>(R.id.registerButton)
